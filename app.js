@@ -9,15 +9,15 @@ var LYOAUTH = require('lvyii_third_party_oauth')
 var oauthRedis = {
   redis_url: '120.77.220.234',
   redis_port: '6379',
-  redis_db: '12',
+  redis_db: '13',
   redis_auth: 'Simors2017',
 }
 
 var wechatOauthCfg = {
   channel: 'wechat',
-  serverUrl: 'http://hudong-dev.leanapp.cn/wechatOauth',
-  appId: 'wx34ac208b373814d2',
-  appSecret: 'd121a1921db870cc3e37f148cb7cc257',
+  serverUrl: 'http://hudong-pro.leanapp.cn/wechatOauth',
+  appId: 'wx8e0c7ea782cd768d',
+  appSecret: '776e01ca5203c3ba758581fc4f9f668',
 }
 
 LYOAUTH.init({

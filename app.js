@@ -17,7 +17,7 @@ var wechatOauthCfg = {
   channel: 'wechat',
   serverUrl: 'http://hudong-pro.leanapp.cn/wechatOauth',
   appId: 'wx8e0c7ea782cd768d',
-  appSecret: '776e01ca5203c3ba758581fc4f9f668',
+  appSecret: '776e01ca5203c3ba758581fc4f9f668a'
 }
 
 LYOAUTH.init({
